@@ -15,6 +15,8 @@ const projects = [
 ];
 
 const languages = [["es", "Español"], ["en", "English"], ["pt", "Português"], ["it", "Italiano"], ["fr", "Français"], ["ca", "Català"], ["fi", "Suomi"], ["zh", "中文"], ["hi", "हिन्दी"], ["ja", "日本語"], ["th", "ไทย"]];
+const protocolText = "BELENTANI PROTOCOL ACTIVATED";
+const decodeGlyphs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/░▒▓";
 
 const stack: Array<[string, number]> = [
   ["Trust & Safety", 92], ["AI orchestration", 88], ["Automation / n8n", 86], ["TypeScript / Python", 82], ["Frontend systems", 79], ["Security & audit", 84],
@@ -32,12 +34,31 @@ export default function Home() {
   const [loaded, setLoaded] = useState(false);
   const [now, setNow] = useState(new Date());
   const [language, setLanguage] = useState("es");
+  const [bootText, setBootText] = useState("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+  const [bootWelcome, setBootWelcome] = useState(false);
 
   useEffect(() => {
-    const timer = window.setTimeout(() => setLoaded(true), 120);
+    let reveal = 0;
+    const decoder = window.setInterval(() => {
+      reveal += 1;
+      const output = protocolText.split("").map((character, index) => {
+        if (index < reveal - 2) return character;
+        if (index < reveal + 3 && character !== " ") return decodeGlyphs[Math.floor(Math.random() * decodeGlyphs.length)];
+        return character === " " ? " " : "░";
+      }).join("");
+      setBootText(output);
+      if (reveal > protocolText.length + 4) {
+        window.clearInterval(decoder);
+        setBootText(protocolText);
+        window.setTimeout(() => setBootWelcome(true), 500);
+        window.setTimeout(() => setLoaded(true), 1700);
+      }
+    }, 105);
     const clock = window.setInterval(() => setNow(new Date()), 30000);
-    return () => { window.clearTimeout(timer); window.clearInterval(clock); };
+    return () => { window.clearInterval(decoder); window.clearInterval(clock); };
   }, []);
+
+  const skipBoot = () => { setBootText(protocolText); setBootWelcome(true); setLoaded(true); };
 
   const localTime = useMemo(() => now.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" }), [now]);
 
@@ -56,7 +77,8 @@ export default function Home() {
   };
 
   return (
-    <div className={`site-shell ${loaded ? "is-loaded" : ""}`}>
+    <div className={`site-shell ${loaded ? "is-loaded boot-complete" : ""}`}>
+      {!loaded && <div className="protocol-loader" role="status" aria-live="polite"><div className="loader-orbit" aria-hidden="true"><span/><span/><span/></div><div className="loader-line" aria-hidden="true"><span/></div><div className="loader-code">SYS/00 · SIGNAL INITIALIZATION</div><div className="loader-title">{bootText}</div><div className={`loader-welcome ${bootWelcome ? "is-visible" : ""}`}>BIENVENIDO A LA EXPERIENCIA</div><button className="loader-skip" onClick={skipBoot}>OMITIR SECUENCIA</button></div>}
       <div className="grain" aria-hidden="true" />
       <header className="site-header">
         <a className="brand-lockup" href="#top" aria-label="Belentani, inicio">
