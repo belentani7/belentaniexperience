@@ -1,6 +1,6 @@
 /* Executive Signal: editorial premium, dark graphite surfaces, bone text, phosphor status accents, asymmetric evidence-led layout. */
 import { useEffect, useMemo, useState } from "react";
-import { ArrowUpRight, Check, ChevronRight, Command, Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { ArrowUpRight, ChevronRight, Command, Github, Globe2, Linkedin, Mail, Menu, X } from "lucide-react";
 
 const heroImage = "/manus-storage/belentani-user-portrait_41eb8863.png";
 const signalImage = "/manus-storage/belentani-user-portrait-warm_53112582.webp";
@@ -13,6 +13,8 @@ const projects = [
   { number: "03", category: "EXPEDIENTE / OPEN SOURCE", title: "OpenClaw", description: "Gateway de comunicación e integración de IA optimizado para arquitecturas ARM64 y entornos móviles.", tags: ["ARM64", "Termux", "CLI"], tone: "cyan", image: signalImage, href: "https://github.com/belentani7" },
   { number: "04", category: "EXPEDIENTE / COMUNIDAD", title: "Manos Abiertas", description: "Iniciativa pública de alfabetización digital, IA y herramientas ofimáticas para ampliar autonomía tecnológica.", tags: ["Educación", "Web", "Acceso"], tone: "lime", image: dataImage, href: "https://github.com/belentani7/manosabiertas" },
 ];
+
+const languages = [["es", "Español"], ["en", "English"], ["pt", "Português"], ["it", "Italiano"], ["fr", "Français"], ["ca", "Català"], ["fi", "Suomi"], ["zh", "中文"], ["hi", "हिन्दी"], ["ja", "日本語"], ["th", "ไทย"]];
 
 const stack: Array<[string, number]> = [
   ["Trust & Safety", 92], ["AI orchestration", 88], ["Automation / n8n", 86], ["TypeScript / Python", 82], ["Frontend systems", 79], ["Security & audit", 84],
@@ -29,6 +31,7 @@ export default function Home() {
   const [output, setOutput] = useState(["belentani-cli v1.0.0", "Type 'help' to inspect the public system."]);
   const [loaded, setLoaded] = useState(false);
   const [now, setNow] = useState(new Date());
+  const [language, setLanguage] = useState("es");
 
   useEffect(() => {
     const timer = window.setTimeout(() => setLoaded(true), 120);
@@ -63,14 +66,14 @@ export default function Home() {
         <nav className="desktop-nav" aria-label="Navegación principal">
           {[['00','Inicio','top'],['01','Trabajo','work'],['02','Perfil','about'],['03','Contacto','contact']].map(([n, label, href]) => <a key={n} href={`#${href}`}><span>{n}</span>{label}</a>)}
         </nav>
-        <div className="header-status"><span className="status-dot" /> AVAILABLE / BCN <span className="status-time">{localTime}</span></div>
+        <div className="header-status"><span className="status-dot" /> AVAILABLE / BCN <span className="status-time">{localTime}</span></div><label className="language-picker"><Globe2 size={13}/><select aria-label="Seleccionar idioma" value={language} onChange={(event) => setLanguage(event.target.value)}>{languages.map(([code, label]) => <option key={code} value={code}>{label}</option>)}</select></label>
         <button className="menu-trigger" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button>
       </header>
 
       {menuOpen && <div className="mobile-menu"><div className="mobile-menu-inner">{[['00','Inicio','top'],['01','Trabajo','work'],['02','Perfil','about'],['03','Contacto','contact']].map(([n,label,href]) => <a key={n} href={`#${href}`} onClick={() => setMenuOpen(false)}><small>{n}</small>{label}<ArrowUpRight size={18}/></a>)}</div></div>}
 
       <main id="top">
-        <section className="hero section-wrap">
+        <section className="hero section-wrap"><div className="ambient-field" aria-hidden="true"><span className="ambient-ring ring-one"/><span className="ambient-ring ring-two"/><span className="ambient-beam"/><span className="ambient-particle particle-one"/><span className="ambient-particle particle-two"/><span className="ambient-particle particle-three"/></div>
           <div className="hero-gridline" aria-hidden="true" />
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-pulse" /> SYS/00 — PROFESSIONAL PROFILE</div>
@@ -86,7 +89,7 @@ export default function Home() {
           <div className="scroll-cue"><span>SCROLL TO INSPECT</span><span className="scroll-line" /></div>
         </section>
 
-        <div className="ticker" aria-label="Áreas de especialización"><div className="ticker-track">TRUST & SAFETY <b>·</b> AI SYSTEMS <b>·</b> AUTOMATION <b>·</b> RISK INTELLIGENCE <b>·</b> CREATIVE TECHNOLOGY <b>·</b> TRUST & SAFETY <b>·</b> AI SYSTEMS <b>·</b> AUTOMATION <b>·</b> RISK INTELLIGENCE <b>·</b></div></div>
+        <div className="motion-divider" aria-hidden="true"><span/><span/><span/></div><div className="ticker" aria-label="Áreas de especialización"><div className="ticker-track">TRUST & SAFETY <b>·</b> AI SYSTEMS <b>·</b> AUTOMATION <b>·</b> RISK INTELLIGENCE <b>·</b> CREATIVE TECHNOLOGY <b>·</b> TRUST & SAFETY <b>·</b> AI SYSTEMS <b>·</b> AUTOMATION <b>·</b> RISK INTELLIGENCE <b>·</b></div></div>
 
         <section id="work" className="section-wrap work-section">
           <div className="section-heading"><SectionLabel index="01" children="Expedientes seleccionados" /><p className="section-intro">Sistemas, experimentos e iniciativas públicas construidas en la intersección de operaciones, inteligencia y código.</p><a className="quiet-link" href="https://github.com/belentani7" target="_blank" rel="noreferrer">Abrir GitHub <ArrowUpRight size={15}/></a></div>
