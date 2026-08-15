@@ -50,10 +50,10 @@ export default function Home() {
       if (reveal > protocolText.length + 4) {
         window.clearInterval(decoder);
         setBootText(protocolText);
-        window.setTimeout(() => setBootWelcome(true), 500);
-        window.setTimeout(() => setLoaded(true), 1700);
+        window.setTimeout(() => setBootWelcome(true), 1400);
+        window.setTimeout(() => setLoaded(true), 3200);
       }
-    }, 105);
+    }, 180);
     const clock = window.setInterval(() => setNow(new Date()), 30000);
     return () => { window.clearInterval(decoder); window.clearInterval(clock); };
   }, []);

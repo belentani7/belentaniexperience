@@ -23,3 +23,10 @@
 - [x] Convertir el fondo en agua negra interestelar con reflejos líquidos lentos.
 - [x] Añadir ondas de luz fría y distorsión acuática sutil en la secuencia de carga.
 - [x] Extender la narrativa de superficie líquida a hero, separadores, expedientes y contacto.
+
+## Refinamiento minimalista y lento
+
+- [x] Reducir el peso tipográfico del protocolo y aumentar el tracking.
+- [x] Alargar la decodificación, las pausas y la revelación del contenido.
+- [x] Atenuar órbitas, partículas, resplandores y ondas para conservar un lenguaje minimalista.
+- [x] Verificar la nueva secuencia y guardar checkpoint.
