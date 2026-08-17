@@ -2,8 +2,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { ArrowUpRight, ChevronRight, Command, Github, Globe2, Linkedin, Mail, Menu, X } from "lucide-react";
 
-const heroImage = "/manus-storage/belentani-user-portrait_41eb8863.png";
-const signalImage = "/manus-storage/belentani-user-portrait-warm_53112582.webp";
+const heroImage = "/manus-storage/belentani-hero-liquid-protocol_15664367.png";
+const signalImage = "/manus-storage/belentani-hero-signal-portrait_b2887c09.png";
 const dataImage = "/manus-storage/belentani-user-portrait_41eb8863.png";
 const monogramImage = "/manus-storage/belentani-pb-monogram_ba9c2ab8.png";
 
