@@ -42,8 +42,10 @@ export default function Home() {
   const [systemPulse, setSystemPulse] = useState(82);
 
   useEffect(() => {
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reducedMotion) { setBootText(protocolText); setBootWelcome(true); setLoaded(true); }
     let reveal = 0;
-    const decoder = window.setInterval(() => {
+    const decoder = reducedMotion ? undefined : window.setInterval(() => {
       reveal += 1;
       const output = protocolText.split("").map((character, index) => index < reveal - 2 ? character : index < reveal + 3 && character !== " " ? decodeGlyphs[Math.floor(Math.random() * decodeGlyphs.length)] : character === " " ? " " : "░").join("");
       setBootText(output);
@@ -53,7 +55,7 @@ export default function Home() {
     const pulse = window.setInterval(() => setSystemPulse((value) => value > 96 ? 76 : value + 1), 4200);
     const keyboard = (event: KeyboardEvent) => { if (event.key === "Escape") { setSelectedProject(null); setCommandPalette(false); setMenuOpen(false); } if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); setCommandPalette(true); } };
     window.addEventListener("keydown", keyboard);
-    return () => { window.clearInterval(decoder); window.clearInterval(clock); window.clearInterval(pulse); window.removeEventListener("keydown", keyboard); };
+    return () => { if (decoder) window.clearInterval(decoder); window.clearInterval(clock); window.clearInterval(pulse); window.removeEventListener("keydown", keyboard); };
   }, []);
 
   const skipBoot = () => { setBootText(protocolText); setBootWelcome(true); setLoaded(true); };

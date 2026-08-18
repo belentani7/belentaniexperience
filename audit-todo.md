@@ -66,3 +66,12 @@
 - [x] Revisar metadatos, enlaces, estados vacíos, errores y navegación sin ratón.
 - [x] Refinar los puntos de mayor impacto visual sin cambiar la voz ni inventar contenido.
 - [x] Ejecutar checks finales y guardar una nueva publicación validada.
+
+## Auditoría Gestalt de 300 criterios
+
+- [x] Generar la matriz de 300 criterios con estado, evidencia y prioridad.
+- [x] Revisar la secuencia completa: preloader, hero, navegación, expedientes, protocolos, perfil, sistema vivo y contacto.
+- [x] Revisar Gestalt: figura/fondo, proximidad, continuidad, cierre, similitud, destino común y ritmo.
+- [x] Aplicar correcciones narrativas y funcionales de alto impacto.
+- [x] Ejecutar checks técnicos, visuales, responsive, accesibilidad y enlaces.
+- [x] Guardar checkpoint y sincronizar/publicar en GitHub.

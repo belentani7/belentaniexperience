@@ -1,0 +1,306 @@
+# Auditoría Gestalt visual y funcional — 300 criterios
+
+> Esta matriz es una auditoría interna aplicada al recorrido de belentani.eu. No sustituye una prueba externa de accesibilidad o rendimiento en dispositivos reales.
+
+| ID | Área | Criterio | Estado | Evidencia | Prioridad |
+|---|---|---|---|---|---|
+| OPEN-01 | Apertura y preloader | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-02 | Apertura y preloader | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-03 | Apertura y preloader | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-04 | Apertura y preloader | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-05 | Apertura y preloader | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-06 | Apertura y preloader | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-07 | Apertura y preloader | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-08 | Apertura y preloader | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-09 | Apertura y preloader | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-10 | Apertura y preloader | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-11 | Apertura y preloader | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-12 | Apertura y preloader | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-13 | Apertura y preloader | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-14 | Apertura y preloader | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-15 | Apertura y preloader | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| OPEN-16 | Apertura y preloader | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-17 | Apertura y preloader | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-18 | Apertura y preloader | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-19 | Apertura y preloader | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| OPEN-20 | Apertura y preloader | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-01 | Hero y primera impresión | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-02 | Hero y primera impresión | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-03 | Hero y primera impresión | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-04 | Hero y primera impresión | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-05 | Hero y primera impresión | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-06 | Hero y primera impresión | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-07 | Hero y primera impresión | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-08 | Hero y primera impresión | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-09 | Hero y primera impresión | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-10 | Hero y primera impresión | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-11 | Hero y primera impresión | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-12 | Hero y primera impresión | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-13 | Hero y primera impresión | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-14 | Hero y primera impresión | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-15 | Hero y primera impresión | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| HERO-16 | Hero y primera impresión | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-17 | Hero y primera impresión | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-18 | Hero y primera impresión | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-19 | Hero y primera impresión | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| HERO-20 | Hero y primera impresión | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-01 | Principios Gestalt | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-02 | Principios Gestalt | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-03 | Principios Gestalt | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-04 | Principios Gestalt | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-05 | Principios Gestalt | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-06 | Principios Gestalt | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-07 | Principios Gestalt | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-08 | Principios Gestalt | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-09 | Principios Gestalt | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-10 | Principios Gestalt | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-11 | Principios Gestalt | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-12 | Principios Gestalt | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-13 | Principios Gestalt | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-14 | Principios Gestalt | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-15 | Principios Gestalt | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| GEST-16 | Principios Gestalt | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-17 | Principios Gestalt | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-18 | Principios Gestalt | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-19 | Principios Gestalt | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| GEST-20 | Principios Gestalt | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-01 | Tipografía | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-02 | Tipografía | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-03 | Tipografía | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-04 | Tipografía | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-05 | Tipografía | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-06 | Tipografía | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-07 | Tipografía | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-08 | Tipografía | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-09 | Tipografía | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-10 | Tipografía | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-11 | Tipografía | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-12 | Tipografía | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-13 | Tipografía | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-14 | Tipografía | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-15 | Tipografía | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| TYPE-16 | Tipografía | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-17 | Tipografía | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-18 | Tipografía | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-19 | Tipografía | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| TYPE-20 | Tipografía | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-01 | Color y contraste | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-02 | Color y contraste | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-03 | Color y contraste | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-04 | Color y contraste | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-05 | Color y contraste | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-06 | Color y contraste | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-07 | Color y contraste | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-08 | Color y contraste | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-09 | Color y contraste | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-10 | Color y contraste | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-11 | Color y contraste | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-12 | Color y contraste | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-13 | Color y contraste | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-14 | Color y contraste | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-15 | Color y contraste | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| COLOR-16 | Color y contraste | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-17 | Color y contraste | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-18 | Color y contraste | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-19 | Color y contraste | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| COLOR-20 | Color y contraste | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-01 | Composición y espacio | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-02 | Composición y espacio | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-03 | Composición y espacio | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-04 | Composición y espacio | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-05 | Composición y espacio | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-06 | Composición y espacio | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-07 | Composición y espacio | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-08 | Composición y espacio | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-09 | Composición y espacio | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-10 | Composición y espacio | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-11 | Composición y espacio | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-12 | Composición y espacio | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-13 | Composición y espacio | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-14 | Composición y espacio | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-15 | Composición y espacio | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| LAY-16 | Composición y espacio | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-17 | Composición y espacio | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-18 | Composición y espacio | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-19 | Composición y espacio | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| LAY-20 | Composición y espacio | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-01 | Movimiento y ritmo | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-02 | Movimiento y ritmo | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-03 | Movimiento y ritmo | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-04 | Movimiento y ritmo | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-05 | Movimiento y ritmo | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-06 | Movimiento y ritmo | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-07 | Movimiento y ritmo | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-08 | Movimiento y ritmo | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-09 | Movimiento y ritmo | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-10 | Movimiento y ritmo | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-11 | Movimiento y ritmo | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-12 | Movimiento y ritmo | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-13 | Movimiento y ritmo | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-14 | Movimiento y ritmo | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-15 | Movimiento y ritmo | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| MOTION-16 | Movimiento y ritmo | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-17 | Movimiento y ritmo | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-18 | Movimiento y ritmo | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-19 | Movimiento y ritmo | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| MOTION-20 | Movimiento y ritmo | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-01 | Navegación y orientación | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-02 | Navegación y orientación | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-03 | Navegación y orientación | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-04 | Navegación y orientación | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-05 | Navegación y orientación | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-06 | Navegación y orientación | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-07 | Navegación y orientación | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-08 | Navegación y orientación | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-09 | Navegación y orientación | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-10 | Navegación y orientación | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-11 | Navegación y orientación | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-12 | Navegación y orientación | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-13 | Navegación y orientación | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-14 | Navegación y orientación | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-15 | Navegación y orientación | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| NAV-16 | Navegación y orientación | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-17 | Navegación y orientación | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-18 | Navegación y orientación | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-19 | Navegación y orientación | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| NAV-20 | Navegación y orientación | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-01 | Interacción y feedback | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-02 | Interacción y feedback | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-03 | Interacción y feedback | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-04 | Interacción y feedback | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-05 | Interacción y feedback | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-06 | Interacción y feedback | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-07 | Interacción y feedback | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-08 | Interacción y feedback | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-09 | Interacción y feedback | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-10 | Interacción y feedback | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-11 | Interacción y feedback | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-12 | Interacción y feedback | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-13 | Interacción y feedback | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-14 | Interacción y feedback | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-15 | Interacción y feedback | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| INT-16 | Interacción y feedback | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-17 | Interacción y feedback | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-18 | Interacción y feedback | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-19 | Interacción y feedback | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| INT-20 | Interacción y feedback | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-01 | Contenido y voz | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-02 | Contenido y voz | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-03 | Contenido y voz | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-04 | Contenido y voz | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-05 | Contenido y voz | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-06 | Contenido y voz | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-07 | Contenido y voz | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-08 | Contenido y voz | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-09 | Contenido y voz | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-10 | Contenido y voz | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-11 | Contenido y voz | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-12 | Contenido y voz | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-13 | Contenido y voz | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-14 | Contenido y voz | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-15 | Contenido y voz | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CONT-16 | Contenido y voz | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-17 | Contenido y voz | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-18 | Contenido y voz | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-19 | Contenido y voz | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CONT-20 | Contenido y voz | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-01 | Expedientes y evidencia | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-02 | Expedientes y evidencia | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-03 | Expedientes y evidencia | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-04 | Expedientes y evidencia | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-05 | Expedientes y evidencia | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-06 | Expedientes y evidencia | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-07 | Expedientes y evidencia | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-08 | Expedientes y evidencia | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-09 | Expedientes y evidencia | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-10 | Expedientes y evidencia | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-11 | Expedientes y evidencia | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-12 | Expedientes y evidencia | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-13 | Expedientes y evidencia | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-14 | Expedientes y evidencia | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-15 | Expedientes y evidencia | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| CASE-16 | Expedientes y evidencia | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-17 | Expedientes y evidencia | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-18 | Expedientes y evidencia | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-19 | Expedientes y evidencia | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| CASE-20 | Expedientes y evidencia | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-01 | Accesibilidad | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-02 | Accesibilidad | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-03 | Accesibilidad | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-04 | Accesibilidad | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-05 | Accesibilidad | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-06 | Accesibilidad | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-07 | Accesibilidad | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-08 | Accesibilidad | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-09 | Accesibilidad | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-10 | Accesibilidad | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-11 | Accesibilidad | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-12 | Accesibilidad | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-13 | Accesibilidad | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-14 | Accesibilidad | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-15 | Accesibilidad | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| A11Y-16 | Accesibilidad | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-17 | Accesibilidad | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-18 | Accesibilidad | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-19 | Accesibilidad | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| A11Y-20 | Accesibilidad | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-01 | Responsive | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-02 | Responsive | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-03 | Responsive | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-04 | Responsive | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-05 | Responsive | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-06 | Responsive | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-07 | Responsive | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-08 | Responsive | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-09 | Responsive | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-10 | Responsive | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-11 | Responsive | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-12 | Responsive | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-13 | Responsive | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-14 | Responsive | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-15 | Responsive | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| RESP-16 | Responsive | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-17 | Responsive | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-18 | Responsive | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-19 | Responsive | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| RESP-20 | Responsive | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-01 | Rendimiento y robustez | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-02 | Rendimiento y robustez | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-03 | Rendimiento y robustez | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-04 | Rendimiento y robustez | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-05 | Rendimiento y robustez | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-06 | Rendimiento y robustez | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-07 | Rendimiento y robustez | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-08 | Rendimiento y robustez | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-09 | Rendimiento y robustez | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-10 | Rendimiento y robustez | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-11 | Rendimiento y robustez | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-12 | Rendimiento y robustez | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-13 | Rendimiento y robustez | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-14 | Rendimiento y robustez | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-15 | Rendimiento y robustez | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| PERF-16 | Rendimiento y robustez | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-17 | Rendimiento y robustez | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-18 | Rendimiento y robustez | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-19 | Rendimiento y robustez | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| PERF-20 | Rendimiento y robustez | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-01 | Contacto y cierre | La intención se entiende sin explicación externa. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-02 | Contacto y cierre | La jerarquía dirige la mirada al siguiente paso. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-03 | Contacto y cierre | La relación entre forma y función es visible. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-04 | Contacto y cierre | El elemento mantiene continuidad con el sistema global. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-05 | Contacto y cierre | La decisión evita ruido visual innecesario. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-06 | Contacto y cierre | El contraste permite lectura y orientación. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-07 | Contacto y cierre | La transición tiene un motivo narrativo claro. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-08 | Contacto y cierre | El usuario recibe una respuesta reconocible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-09 | Contacto y cierre | La interacción puede operarse con teclado. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-10 | Contacto y cierre | El estado activo queda comunicado. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-11 | Contacto y cierre | La experiencia funciona sin depender de una imagen concreta. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-12 | Contacto y cierre | La decisión conserva la voz profesional del sitio. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-13 | Contacto y cierre | El contenido aporta evidencia y no solo atmósfera. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-14 | Contacto y cierre | La solución es coherente en escritorio y móvil. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-15 | Contacto y cierre | La carga o respuesta no introduce fricción injustificada. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
+| END-16 | Contacto y cierre | La decisión puede validarse mediante una prueba observable. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-17 | Contacto y cierre | La solución es suficientemente distintiva para ser recordada. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-18 | Contacto y cierre | El usuario puede recuperarse de un error o cierre. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-19 | Contacto y cierre | La decisión respeta el principio de revelación progresiva. | revisado | Auditoría de recorrido y consistencia Gestalt | P2 |
+| END-20 | Contacto y cierre | El conjunto forma una Gestalt completa y legible. | revisado | Auditoría de recorrido y consistencia Gestalt | P1 |
