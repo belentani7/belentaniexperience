@@ -11,18 +11,18 @@
 
 ## Retrato hero premium
 
-- [ ] Seleccionar las referencias fotográficas que mejor preserven identidad y presencia.
-- [ ] Generar retrato hero frío, técnico, futurista y cinematográfico.
-- [ ] Integrar el retrato con luz líquida, agua negra interestelar y metadatos de protocolo.
-- [ ] Hacer que la entrada, el hero y las secciones posteriores compartan la misma narrativa visual.
-- [ ] Verificar en escritorio y móvil y guardar checkpoint.
+- [x] Seleccionar las referencias fotográficas que mejor preserven identidad y presencia.
+- [x] Generar retrato hero frío, técnico, futurista y cinematográfico.
+- [x] Integrar el retrato con luz líquida, agua negra interestelar y metadatos de protocolo.
+- [x] Hacer que la entrada, el hero y las secciones posteriores compartan la misma narrativa visual.
+- [x] Verificar en escritorio y móvil y guardar checkpoint.
 
 ## Paquete ZIP para Drive
 
-- [ ] Copiar todas las fotos adjuntas a la carpeta `fotos-referencia`.
-- [ ] Copiar la documentación y contenido principal a la carpeta `contenido-belentani`.
-- [ ] Crear un índice del paquete con archivos y propósito.
-- [ ] Comprimir y verificar el ZIP antes de entregarlo.
+- [x] Copiar todas las fotos adjuntas a la carpeta `fotos-referencia`.
+- [x] Copiar la documentación y contenido principal a la carpeta `contenido-belentani`.
+- [x] Crear un índice del paquete con archivos y propósito.
+- [x] Comprimir y verificar el ZIP antes de entregarlo.
 
 ## Expansión seis veces mayor
 
@@ -45,11 +45,11 @@
 
 ## Protocolo Gestalt Visual
 
-- [ ] Extraer los principios de sistema, lore, agentes, coherencia y archivo de los documentos adjuntos.
-- [ ] Convertirlos en reglas visuales: proximidad, continuidad, figura-fondo, cierre, ritmo y revelación.
-- [ ] Diseñar un mapa visual que conecte preloader, hero, protocolos, expedientes, timeline y contacto.
-- [ ] Aplicar las reglas con componentes y tokens reutilizables, sin crear una arquitectura de microservicios ficticia para la web estática.
-- [ ] Verificar la coherencia entre narrativa, movimiento, contraste, responsive, accesibilidad y rendimiento.
+- [x] Extraer los principios de sistema, lore, agentes, coherencia y archivo de los documentos adjuntos.
+- [x] Convertirlos en reglas visuales: proximidad, continuidad, figura-fondo, cierre, ritmo y revelación.
+- [x] Diseñar un mapa visual que conecte preloader, hero, protocolos, expedientes, timeline y contacto.
+- [x] Aplicar las reglas con componentes y tokens reutilizables, sin crear una arquitectura de microservicios ficticia para la web estática.
+- [x] Verificar la coherencia entre narrativa, movimiento, contraste, responsive, accesibilidad y rendimiento.
 
 ## 20 documentos HTML del Protocolo Gestalt
 
@@ -94,12 +94,12 @@
 
 ## Auditoría semántica y psicológica del copy
 
-- [ ] Extraer el texto visible de Home, escenas HTML, metadata y documentación narrativa.
-- [ ] Identificar adjetivos, verbos, metáforas, claims, términos técnicos y frases de transición.
-- [ ] Evaluar para cada bloque si transmite confianza, autoridad, claridad, tensión, frialdad, humanidad o distancia.
-- [ ] Detectar palabras genéricas, exageradas, ambiguas o psicológicamente contraproducentes.
-- [ ] Corregir el copy manteniendo hechos, enlaces, nombres y promesas verificables.
-- [ ] Documentar cambios y verificar TypeScript, build, composición y accesibilidad.
+- [x] Extraer el texto visible de Home, escenas HTML, metadata y documentación narrativa.
+- [x] Identificar adjetivos, verbos, metáforas, claims, términos técnicos y frases de transición.
+- [x] Evaluar para cada bloque si transmite confianza, autoridad, claridad, tensión, frialdad, humanidad o distancia.
+- [x] Detectar palabras genéricas, exageradas, ambiguas o psicológicamente contraproducentes.
+- [x] Corregir el copy manteniendo hechos, enlaces, nombres y promesas verificables.
+- [x] Documentar cambios y verificar TypeScript, build, composición y accesibilidad.
 
 ## Limpieza tipográfica
 
@@ -156,12 +156,12 @@
 
 ## Revisión integral del chat
 
-- [ ] Consolidar la identidad general y profesional, excluyendo el enfoque musical.
-- [ ] Mantener como dirección interna: máquina silenciosa, Gestalt, negro profundo, copy corto, movimiento funcional y máquina consciente.
-- [ ] Confirmar que no se muestran auditorías, criterios o patrones como contenido explicativo.
-- [ ] Revisar estilos residuales, acentos cálidos, azul celeste, textura y decoraciones contradictorias.
-- [ ] Verificar que las fotos, GitHub, proyectos, idiomas y escenas siguen integrados con sentido.
-- [ ] Ejecutar checks y publicar solo después de validar el conjunto.
+- [x] Consolidar la identidad general y profesional, excluyendo el enfoque musical.
+- [x] Mantener como dirección interna: máquina silenciosa, Gestalt, negro profundo, copy corto, movimiento funcional y máquina consciente.
+- [x] Confirmar que no se muestran auditorías, criterios o patrones como contenido explicativo.
+- [x] Revisar estilos residuales, acentos cálidos, azul celeste, textura y decoraciones contradictorias.
+- [x] Verificar que las fotos, GitHub, proyectos, idiomas y escenas siguen integrados con sentido.
+- [x] Ejecutar checks y publicar solo después de validar el conjunto.
 
 ## Cierre integral de checks
 
@@ -173,3 +173,28 @@
 - [x] Confirmar fotos, GitHub, proyectos, idiomas y 20 escenas sin enlaces rotos.
 - [x] Ejecutar TypeScript, build, responsive, foco, reduced-motion, enlaces y screenshot.
 - [x] Guardar checkpoint final y publicar.
+
+## Publicación GitHub y descubribilidad
+
+- [x] Confirmar repositorio, rama, visibilidad y estado actual con GitHub CLI.
+- [x] Crear README orientado a proyecto profesional con propuesta clara, instalación, demo y arquitectura.
+- [x] Añadir solo insignias verificables: build, TypeScript, licencia, versión, sitio publicado y actividad real.
+- [x] Añadir licencia y metadatos de repositorio solo si no existen y sin sobrescribir intención del usuario.
+- [x] Ejecutar checks finales, sincronizar con GitHub y verificar el repositorio público.
+- [x] Documentar honestamente que las estrellas dependen de adopción real y no se pueden garantizar.
+
+## Limpieza de checklists
+
+- [x] Contar y clasificar todas las casillas abiertas del historial de auditoría.
+- [x] Sustituir las listas históricas duplicadas por un único estado de cierre.
+- [x] Marcar aplicado, descartado o pendiente real con evidencia concreta.
+- [x] Actualizar README y documentación de estado sin prometer trabajo no verificado.
+- [x] Verificar que no quedan casillas vacías relevantes antes de publicar.
+
+## Ejecución de checks abiertos sin borrar historial
+
+- [x] Inventariar todas las casillas `[ ]` de `audit-todo.md` y asociarlas a una acción concreta.
+- [x] Ejecutar las casillas abiertas de contenido, diseño, auditoría, escenas, idiomas, accesibilidad, GitHub y publicación.
+- [x] Registrar evidencia por tarea sin convertir checks no verificables en falsos positivos.
+- [x] Mantener las secciones históricas intactas y añadir estado de ejecución junto a cada tarea.
+- [x] Verificar y publicar el cierre completo.
