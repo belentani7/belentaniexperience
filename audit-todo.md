@@ -153,3 +153,23 @@
 - [x] Hacer que la máquina consciente se entienda por comportamiento, no por explicación extensa.
 - [x] Mantener una narrativa corta, limpia y acumulativa durante la experiencia.
 - [x] Verificar que cada elemento existe por una función perceptiva o narrativa concreta.
+
+## Revisión integral del chat
+
+- [ ] Consolidar la identidad general y profesional, excluyendo el enfoque musical.
+- [ ] Mantener como dirección interna: máquina silenciosa, Gestalt, negro profundo, copy corto, movimiento funcional y máquina consciente.
+- [ ] Confirmar que no se muestran auditorías, criterios o patrones como contenido explicativo.
+- [ ] Revisar estilos residuales, acentos cálidos, azul celeste, textura y decoraciones contradictorias.
+- [ ] Verificar que las fotos, GitHub, proyectos, idiomas y escenas siguen integrados con sentido.
+- [ ] Ejecutar checks y publicar solo después de validar el conjunto.
+
+## Cierre integral de checks
+
+- [x] Confirmar identidad: portfolio general/profesional y foco técnico real.
+- [x] Confirmar apertura: negro profundo, línea fina, estados deterministas y decodificación lenta.
+- [x] Confirmar máquina consciente: estados visibles vinculados a scroll, expedientes y contacto.
+- [x] Confirmar paleta: sin marrón, bronce, lime, cyan celeste ni gradientes contradictorios.
+- [x] Confirmar copy: títulos contenidos, palabras limpias y ningún índice documental expuesto.
+- [x] Confirmar fotos, GitHub, proyectos, idiomas y 20 escenas sin enlaces rotos.
+- [x] Ejecutar TypeScript, build, responsive, foco, reduced-motion, enlaces y screenshot.
+- [x] Guardar checkpoint final y publicar.
