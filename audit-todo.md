@@ -42,3 +42,19 @@
 - [x] Aplicar las mejoras de mayor impacto sin alterar la identidad ni inventar contenido profesional.
 - [x] Ejecutar checks de accesibilidad, responsive, rendimiento, navegación y diferenciación.
 - [x] Guardar la matriz, el informe y el checkpoint publicado.
+
+## Protocolo Gestalt Visual
+
+- [ ] Extraer los principios de sistema, lore, agentes, coherencia y archivo de los documentos adjuntos.
+- [ ] Convertirlos en reglas visuales: proximidad, continuidad, figura-fondo, cierre, ritmo y revelación.
+- [ ] Diseñar un mapa visual que conecte preloader, hero, protocolos, expedientes, timeline y contacto.
+- [ ] Aplicar las reglas con componentes y tokens reutilizables, sin crear una arquitectura de microservicios ficticia para la web estática.
+- [ ] Verificar la coherencia entre narrativa, movimiento, contraste, responsive, accesibilidad y rendimiento.
+
+## 20 documentos HTML del Protocolo Gestalt
+
+- [x] Definir 20 escenas: entrada, hero, protocolos, expedientes, lore, agentes, archivo, señales, timeline y contacto.
+- [x] Generar 20 HTML semánticos con navegación anterior/siguiente y retorno al índice.
+- [x] Crear una hoja de estilo compartida con agua negra, cristal frío, línea fina y estados de protocolo.
+- [x] Añadir índice visual y mapa de relaciones entre escenas.
+- [x] Verificar enlaces internos, landmarks, foco, responsive y carga.
