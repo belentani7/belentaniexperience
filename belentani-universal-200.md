@@ -1,0 +1,206 @@
+# Protocolo Universal Belentani — 200 reglas
+
+> Síntesis de las indicaciones acumuladas del proyecto. Las reglas universales organizan decisiones; no reemplazan pruebas externas ni autorizan inventar contenido.
+
+| ID | Categoría | Regla | Aplicada | Evidencia | Validación |
+|---|---|---|---|---|---|
+| BEL-001 | IDENTIDAD | La marca Belentani debe ser reconocible antes de leer el nombre. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-002 | IDENTIDAD | El sello PB debe aparecer como marca de sistema, nunca como ornamento aislado. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-003 | IDENTIDAD | La relación entre BELENTANI y .EU debe conservar jerarquía propia. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-004 | IDENTIDAD | La identidad debe funcionar en negro, claro y escala reducida. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-005 | IDENTIDAD | Toda marca visual debe poder defenderse con una intención profesional. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-006 | IDENTIDAD | La estética debe sentirse técnica, fría, humana y precisa. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-007 | IDENTIDAD | La marca debe evitar parecer plantilla de portfolio. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-008 | IDENTIDAD | El lenguaje debe poder repetirse en web, HTML, GitHub y dossier. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-009 | IDENTIDAD | La identidad no debe depender de una única imagen. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-010 | IDENTIDAD | Cada nuevo módulo debe responder si refuerza o diluye Belentani. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-011 | GESTALT | Figura y fondo deben separar señal y silencio. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-012 | GESTALT | La proximidad debe agrupar datos que pertenecen a la misma operación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-013 | GESTALT | La similitud debe indicar estados equivalentes. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-014 | GESTALT | La continuidad debe llevar la mirada al siguiente nodo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-015 | GESTALT | El cierre debe permitir entender una idea aunque parte permanezca oculta. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-016 | GESTALT | El destino común debe usar movimiento compartido para indicar relación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-017 | GESTALT | La región común debe contener estados sin crear ruido. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-018 | GESTALT | La conexión debe ser visible antes de ser explicada. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-019 | GESTALT | La ambigüedad debe ser intencional, no consecuencia de falta de jerarquía. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-020 | GESTALT | Cada escena debe formar una unidad antes de enlazar con la siguiente. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-021 | NARRATIVA | La historia empieza con una señal, no con una lista. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-022 | NARRATIVA | El preloader debe preparar una promesa y no ser una barrera. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-023 | NARRATIVA | El hero debe establecer presencia y método. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-024 | NARRATIVA | Los protocolos deben ordenar la lectura profesional. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-025 | NARRATIVA | Los expedientes deben convertir atmósfera en evidencia. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-026 | NARRATIVA | El perfil debe explicar el criterio detrás del sistema. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-027 | NARRATIVA | El sistema vivo debe demostrar continuidad, no fingir métricas. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-028 | NARRATIVA | El contacto debe sentirse como consecuencia lógica. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-029 | NARRATIVA | El cierre debe dejar memoria y próximo paso. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-030 | NARRATIVA | La narrativa completa debe poder resumirse como señal, contexto, riesgo, ejecución y archivo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-031 | APERTURA | La apertura debe usar negro profundo sin imágenes. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-032 | APERTURA | La apertura debe evitar textura, grano y ornamento innecesario. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-033 | APERTURA | La línea debe ser fina y sus extremos deben afinarse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-034 | APERTURA | La luz debe emerger lentamente desde el centro. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-035 | APERTURA | La decodificación debe revelar letras por fases. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-036 | APERTURA | El texto final debe formar BELENTANI PROTOCOL ACTIVATED. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-037 | APERTURA | La bienvenida debe aparecer después del protocolo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-038 | APERTURA | El hero visual debe revelarse después de la apertura. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-039 | APERTURA | El usuario debe poder omitir la secuencia. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-040 | APERTURA | Reduced motion debe revelar el contenido sin espera prolongada. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-041 | HERO | El hero debe mostrar una presencia profesional, no una imagen decorativa. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-042 | HERO | El retrato debe integrarse con el sistema visual. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-043 | HERO | La safe area debe conservar rostro, texto y metadatos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-044 | HERO | El copy debe explicar qué se hace y por qué importa. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-045 | HERO | El primer CTA debe llevar a inspeccionar trabajo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-046 | HERO | El segundo CTA debe abrir un canal real. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-047 | HERO | La metadata debe funcionar como evidencia contextual. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-048 | HERO | El hero debe mantener contraste sobre imagen y fondo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-049 | HERO | El hero debe respirar antes de pedir acción. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-050 | HERO | La primera pantalla debe ser memorable sin ser confusa. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-051 | LUZ | La luz debe funcionar como señal de jerarquía. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-052 | LUZ | El navy debe ser profundo y no competir con el blanco frío. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-053 | LUZ | Los reflejos deben sugerir agua negra sin saturar la interfaz. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-054 | LUZ | La luminosidad debe reservarse para estados activos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-055 | LUZ | Los resplandores deben evitar el efecto neón genérico. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-056 | LUZ | La línea horizontal debe reaparecer como motivo de continuidad. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-057 | LUZ | Las imágenes deben aceptar tratamiento frío y sobrio. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-058 | LUZ | El contraste debe poder leerse en baja luminosidad. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-059 | LUZ | La luz debe acompañar la transición, no distraer del contenido. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-060 | LUZ | Cada acento cromático debe tener una función semántica. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-061 | TIPOGRAFIA | Los titulares deben tener carácter editorial. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-062 | TIPOGRAFIA | La UI debe usar una voz técnica y legible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-063 | TIPOGRAFIA | El peso tipográfico debe ser fino cuando la escena lo requiera. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-064 | TIPOGRAFIA | El tracking debe comunicar silencio, distancia y precisión. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-065 | TIPOGRAFIA | El tamaño debe crear jerarquía sin desbordar móvil. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-066 | TIPOGRAFIA | Las cursivas deben marcar una segunda voz, no decorar. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-067 | TIPOGRAFIA | Los números deben funcionar como coordenadas narrativas. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-068 | TIPOGRAFIA | El texto largo debe conservar comodidad de lectura. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-069 | TIPOGRAFIA | El protocolo debe poder leerse aunque la decodificación sea parcial. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-070 | TIPOGRAFIA | Ningún estilo tipográfico debe sacrificar contraste. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-071 | COLOR | El fondo principal debe ser negro o navy casi negro. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-072 | COLOR | El blanco frío debe reservarse para información dominante. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-073 | COLOR | El azul señal debe marcar estados activos y links. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-074 | COLOR | Los tonos lime, brass y cyan deben diferenciar expedientes con moderación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-075 | COLOR | El color nunca debe ser el único indicador de estado. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-076 | COLOR | El contraste debe probarse sobre fondos reales. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-077 | COLOR | La paleta debe mantenerse estable entre React y HTML. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-078 | COLOR | Los overlays deben conservar profundidad sin enturbiar lectura. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-079 | COLOR | Los estados hover deben iluminar sin cambiar de identidad. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-080 | COLOR | El color debe reforzar figura, fondo y continuidad. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-081 | COMPOSICION | La composición debe evitar el centrado genérico. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-082 | COMPOSICION | El vacío debe tener función narrativa. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-083 | COMPOSICION | Las líneas deben construir ejes de lectura. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-084 | COMPOSICION | La asimetría debe estar compensada por datos y ritmo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-085 | COMPOSICION | Los módulos deben respirar antes de entrar en conflicto. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-086 | COMPOSICION | El grid debe romperse solo cuando la intención sea clara. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-087 | COMPOSICION | La escala debe alternar intimidad y monumentalidad. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-088 | COMPOSICION | El contenido importante debe quedar dentro de safe areas. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-089 | COMPOSICION | Cada bloque debe tener un principio y un cierre visual. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-090 | COMPOSICION | La composición debe sobrevivir sin movimiento. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-091 | MOVIMIENTO | El movimiento debe ser lento, deliberado y no constante por obligación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-092 | MOVIMIENTO | La decodificación debe tener tiempo suficiente para sentirse ceremonial. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-093 | MOVIMIENTO | Las entradas deben usar opacidad y transform, no layout destructivo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-094 | MOVIMIENTO | El pulso del sistema debe ser casi imperceptible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-095 | MOVIMIENTO | Las órbitas deben sugerir relación sin robar foco. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-096 | MOVIMIENTO | Los hover deben confirmar interacción en menos de 300 ms. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-097 | MOVIMIENTO | Las transiciones deben poder interrumpirse sin romperse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-098 | MOVIMIENTO | Reduced motion debe desactivar movimiento no esencial. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-099 | MOVIMIENTO | El movimiento debe continuar la narrativa de la línea. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-100 | MOVIMIENTO | Ninguna animación debe bloquear la función principal. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-101 | INTERACCION | Cada botón debe producir una respuesta visible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-102 | INTERACCION | Los filtros deben actualizar únicamente los expedientes necesarios. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-103 | INTERACCION | Los modales deben abrirse, cerrarse y recuperarse con teclado. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-104 | INTERACCION | Escape debe cerrar capas temporales. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-105 | INTERACCION | Command palette debe ser opcional, no requisito para navegar. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-106 | INTERACCION | La terminal debe responder con estados honestos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-107 | INTERACCION | Los estados vacíos deben explicar qué ocurrió. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-108 | INTERACCION | Los errores deben ofrecer recuperación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-109 | INTERACCION | Los enlaces externos deben indicar su destino. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-110 | INTERACCION | La interacción debe aportar inspección, no espectáculo vacío. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-111 | NAVEGACION | La navegación principal debe ser visible en escritorio. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-112 | NAVEGACION | La navegación móvil debe tener escape claro. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-113 | NAVEGACION | Los números deben crear orientación espacial. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-114 | NAVEGACION | La sección activa debe poder identificarse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-115 | NAVEGACION | Los enlaces deben usar nombres descriptivos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-116 | NAVEGACION | Las escenas HTML deben tener índice y navegación secuencial. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-117 | NAVEGACION | La command palette debe llevar a un punto útil. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-118 | NAVEGACION | No debe existir callejón sin salida. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-119 | NAVEGACION | El contacto debe poder alcanzarse desde más de una ruta. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-120 | NAVEGACION | La navegación debe permitir lectura rápida y profunda. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-121 | CONTENIDO | El texto profesional del usuario no debe inventarse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-122 | CONTENIDO | El español debe ser la fuente editorial principal. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-123 | CONTENIDO | Los otros idiomas deben ser explícitos y consistentes. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-124 | CONTENIDO | Las frases deben tener punto de vista. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-125 | CONTENIDO | Los claims deben poder defenderse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-126 | CONTENIDO | Los expedientes deben incluir descripción y señal. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-127 | CONTENIDO | Los datos operativos deben distinguirse de métricas reales. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-128 | CONTENIDO | El contenido debe hablar con precisión, no con filler. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-129 | CONTENIDO | La metadata técnica debe apoyar el relato. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-130 | CONTENIDO | El texto debe conservar legibilidad fuera de la animación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-131 | EXPEDIENTES | Cada expediente debe tener número y categoría. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-132 | EXPEDIENTES | Cada expediente debe tener una señal específica. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-133 | EXPEDIENTES | Cada expediente debe tener estado reconocible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-134 | EXPEDIENTES | El visual debe abrir una capa de evidencia. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-135 | EXPEDIENTES | El detalle debe ampliar sin duplicar la tarjeta. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-136 | EXPEDIENTES | Los tags deben ser informativos y no decorativos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-137 | EXPEDIENTES | El enlace público debe ser real. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-138 | EXPEDIENTES | Los expedientes deben poder filtrarse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-139 | EXPEDIENTES | La lista debe conservar orden y ritmo al filtrar. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-140 | EXPEDIENTES | La taxonomía debe conectar con los protocolos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-141 | PERFIL | El perfil debe explicar método, no solo trayectoria. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-142 | PERFIL | La cita central debe ser memorable y defendible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-143 | PERFIL | La trayectoria debe funcionar como timeline. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-144 | PERFIL | La ubicación y disponibilidad deben estar diferenciadas. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-145 | PERFIL | Los idiomas deben ser visibles sin saturar. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-146 | PERFIL | La actividad pública debe tratarse con honestidad. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-147 | PERFIL | El perfil debe conectar operaciones con sistemas. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-148 | PERFIL | La imagen secundaria debe reforzar arquitectura. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-149 | PERFIL | El método debe aparecer antes del contacto. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-150 | PERFIL | El perfil debe sostener la promesa del hero. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-151 | IDIOMAS | El selector debe incluir español, inglés y portugués. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-152 | IDIOMAS | El selector debe incluir italiano y francés. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-153 | IDIOMAS | El selector debe incluir catalán y finés. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-154 | IDIOMAS | El selector debe incluir chino, hindi, japonés y tailandés. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-155 | IDIOMAS | El idioma activo debe ser visible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-156 | IDIOMAS | El cambio de idioma no debe romper la navegación. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-157 | IDIOMAS | Los caracteres CJK deben tener fuente compatible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-158 | IDIOMAS | El idioma no debe alterar identidad visual. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-159 | IDIOMAS | Los textos técnicos deben conservar términos reconocibles. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-160 | IDIOMAS | La estrategia multidioma debe poder crecer sin duplicar componentes. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-161 | ACCESIBILIDAD | La página debe tener landmarks semánticos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-162 | ACCESIBILIDAD | Los controles deben ser botones o enlaces reales. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-163 | ACCESIBILIDAD | Los iconos decorativos deben tener alt vacío. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-164 | ACCESIBILIDAD | Las imágenes informativas deben tener alt descriptivo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-165 | ACCESIBILIDAD | El foco debe ser visible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-166 | ACCESIBILIDAD | El orden de tabulación debe ser lógico. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-167 | ACCESIBILIDAD | El contraste debe cumplir una lectura razonable. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-168 | ACCESIBILIDAD | Los overlays deben tener role y aria adecuados. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-169 | ACCESIBILIDAD | La animación debe respetar prefers-reduced-motion. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-170 | ACCESIBILIDAD | La experiencia debe ser operable sin ratón. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-171 | RESPONSIVE | El hero debe conservar composición en móvil. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-172 | RESPONSIVE | El protocolo largo debe envolver sin desbordar. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-173 | RESPONSIVE | Los filtros deben poder desplazarse horizontalmente. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-174 | RESPONSIVE | Los tabs deben conservar targets táctiles. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-175 | RESPONSIVE | El modal debe caber en viewport estrecho. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-176 | RESPONSIVE | El timeline debe apilarse sin perder secuencia. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-177 | RESPONSIVE | La metadata debe romperse con intención. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-178 | RESPONSIVE | Las escenas HTML deben leer bien en 375 px. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-179 | RESPONSIVE | La navegación móvil debe ser clara. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-180 | RESPONSIVE | Ningún elemento debe crear scroll horizontal accidental. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-181 | RENDIMIENTO | Home debe cargar de forma lazy cuando sea posible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-182 | RENDIMIENTO | Los vendors deben dividirse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-183 | RENDIMIENTO | El chunk principal no debe emitir warning evitable. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-184 | RENDIMIENTO | Las imágenes deben vivir fuera del source bundle. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-185 | RENDIMIENTO | Las animaciones deben priorizar transform y opacity. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-186 | RENDIMIENTO | El CSS debe evitar repaints masivos. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-187 | RENDIMIENTO | El preloader no debe bloquear reduced motion. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-188 | RENDIMIENTO | El build debe ser reproducible. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-189 | RENDIMIENTO | Las escenas estáticas deben cargar sin React. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-190 | RENDIMIENTO | Core Web Vitals debe medirse en dispositivo real antes de competir. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-191 | PUBLICACION | El build debe pasar antes del checkpoint. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-192 | PUBLICACION | El dominio publicado debe comprobarse. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-193 | PUBLICACION | GitHub debe recibir el estado final mediante el flujo conectado. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-194 | PUBLICACION | La rama principal debe quedar sincronizada. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-195 | PUBLICACION | El README o documentación debe explicar el sistema. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-196 | PUBLICACION | Los criterios aplicados deben quedar auditables. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-197 | PUBLICACION | Las escenas HTML deben existir en producción. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-198 | PUBLICACION | El screenshot de candidatura debe mostrar estado completo. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-199 | PUBLICACION | La obra debe presentarse como original y completa. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |
+| BEL-200 | PUBLICACION | La publicación debe ser reversible mediante checkpoint. | sí | Sistema React, escenas Gestalt, CSS, HTML, metadata o checks según categoría | build / visual / structural / manual |

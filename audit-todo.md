@@ -75,3 +75,19 @@
 - [x] Aplicar correcciones narrativas y funcionales de alto impacto.
 - [x] Ejecutar checks técnicos, visuales, responsive, accesibilidad y enlaces.
 - [x] Guardar checkpoint y sincronizar/publicar en GitHub.
+
+## Apertura negro profundo
+
+- [x] Eliminar textura, grano, partículas, órbitas e imágenes del preloader.
+- [x] Mantener únicamente negro profundo, línea fina de luz y decodificación tipográfica.
+- [x] Revelar el hero visual solo después de finalizar el protocolo.
+- [x] Verificar reduced-motion, responsive y build y guardar checkpoint.
+
+## Protocolo Universal Belentani — 200 reglas
+
+- [x] Sintetizar todas las indicaciones del chat en 200 reglas numeradas y no contradictorias.
+- [x] Clasificar las reglas por identidad, Gestalt, narrativa, apertura, tipografía, luz, movimiento, interacción, contenido, idiomas, accesibilidad, rendimiento, código y publicación.
+- [x] Crear una matriz regla → archivo → evidencia → estado.
+- [x] Aplicar las reglas al frontend y a las 20 escenas HTML cuando corresponda.
+- [x] Resolver conflictos priorizando texto del usuario, accesibilidad, rendimiento y coherencia narrativa.
+- [x] Ejecutar checks finales y publicar el protocolo aplicado.

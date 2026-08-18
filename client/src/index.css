@@ -50,3 +50,9 @@ body{background:#000;color:var(--bone)}.site-shell{background:radial-gradient(ci
 
 /* Accessibility pass: visible focus is part of the visual language, not a browser afterthought. */
 :where(a,button,select,input):focus-visible{outline:1px solid var(--signal);outline-offset:5px;box-shadow:0 0 0 4px rgba(185,220,255,.12)}:where(button):disabled{cursor:not-allowed;opacity:.5}
+
+/* Pure opening pass: deep black field, no image, no grain, no texture, only light and type. */
+.protocol-loader{background:#000!important;background-image:none!important;isolation:isolate}.protocol-loader:before,.protocol-loader:after,.protocol-loader .loader-orbit,.protocol-loader .ambient-field,.protocol-loader .grain{display:none!important}.protocol-loader .loader-line{width:min(74vw,860px);height:1px;background:rgba(220,236,255,.18);box-shadow:none}.protocol-loader .loader-line span{height:1px;background:linear-gradient(90deg,transparent 0%,rgba(220,236,255,.9) 18%,#fff 50%,rgba(220,236,255,.9) 82%,transparent 100%);box-shadow:none}.protocol-loader .loader-code{color:rgba(220,236,255,.48);text-shadow:none}.protocol-loader .loader-title{font-weight:300;letter-spacing:.26em;text-shadow:none}.protocol-loader .loader-welcome{color:rgba(220,236,255,.55);text-shadow:none}.protocol-loader .loader-skip{color:rgba(220,236,255,.3);text-shadow:none}
+
+/* Universal protocol link: documentation is part of the public narrative, not a detached appendix. */
+.footer-protocol-link{color:var(--signal);text-decoration:none;border-bottom:1px solid rgba(185,220,255,.35);transition:color .25s ease,border-color .25s ease}.footer-protocol-link:hover,.footer-protocol-link:focus-visible{color:#fff;border-color:#fff}
