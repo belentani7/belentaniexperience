@@ -225,7 +225,6 @@ export default defineConfig({
         manualChunks: {
           "vendor-react": ["react", "react-dom", "wouter"],
           "vendor-icons": ["lucide-react"],
-          "vendor-motion": ["framer-motion"],
           "vendor-ui": ["sonner", "next-themes"],
         },
       },
