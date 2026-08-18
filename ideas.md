@@ -90,3 +90,10 @@ La web seguirá **Executive Signal** estrictamente: premium, sobria y editorial;
 - Las capacidades se presentan como lecturas operativas y señales de experiencia aplicada, no como autovaloraciones de currículum.
 - La sección de trabajo usa la metáfora de expedientes y evidencia para diferenciarse de una cuadrícula genérica de portfolio.
 - El latón apagado se utiliza como material editorial secundario para introducir calidez humana sin debilitar la precisión técnica.
+
+
+## Style Decisions — trazabilidad final
+
+La revisión independiente sugirió una señal verde fosforita y una primera pantalla más explícita. Se conserva únicamente el principio de identidad visible y jerarquía editorial; se descarta el verde porque contradice la dirección de usuario: negro profundo, blanco frío y gris, sin tonos ornamentales. La apertura debe seguir siendo un arranque ceremonial negro y deliberadamente lento; la identidad se revela mediante la línea fina, el wordmark, el sello PB, el estado de protocolo y el hero posterior, no mediante una capa cromática añadida.
+
+La métrica visual se trata como señal semántica y no como promesa cuantitativa. Las barras restantes funcionan como gramática de intensidad del sistema, mientras que las etiquetas comunican estados observables.

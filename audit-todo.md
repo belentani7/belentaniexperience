@@ -198,3 +198,12 @@
 - [x] Registrar evidencia por tarea sin convertir checks no verificables en falsos positivos.
 - [x] Mantener las secciones históricas intactas y añadir estado de ejecución junto a cada tarea.
 - [x] Verificar y publicar el cierre completo.
+
+## Trazabilidad: criterios observados → decisiones aplicadas
+
+- [x] Inventariar archivos de criterios, patrones, research, scorecards, auditorías y guías internas.
+- [x] Escanear React, CSS, escenas HTML, metadata y README en busca de referencias que solo apunten a un documento.
+- [x] Crear una lista consolidada de criterios con estado `aplicado`, `solo documentado` o `ausente`.
+- [x] Escanear la superficie web publicada y comparar su comportamiento con el repositorio.
+- [x] Transformar cada criterio aplicable solo documentado en una decisión visual o funcional.
+- [x] Verificar evidencia de aplicación y publicar el cierre.
