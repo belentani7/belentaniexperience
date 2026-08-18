@@ -32,3 +32,13 @@
 - [x] Añadir interacciones reales: navegación por teclado, filtros, apertura de expedientes, estado de sistema y comandos.
 - [x] Mantener una narrativa continua entre preloader, hero, secciones y contacto.
 - [x] Ejecutar checks de rendimiento, accesibilidad, responsive y build antes de publicar.
+
+## Competición de premios web: 2.000 criterios
+
+- [x] Investigar criterios oficiales de Awwwards, CSS Design Awards, FWA, WCAG y Core Web Vitals.
+- [x] Diseñar una matriz de 2.000 criterios agrupados por impacto y categoría.
+- [x] Puntuar el sitio actual y separar fortalezas, riesgos y oportunidades.
+- [x] Definir una estrategia de competición con decisiones visuales, narrativas, UX y técnicas conectadas.
+- [x] Aplicar las mejoras de mayor impacto sin alterar la identidad ni inventar contenido profesional.
+- [x] Ejecutar checks de accesibilidad, responsive, rendimiento, navegación y diferenciación.
+- [x] Guardar la matriz, el informe y el checkpoint publicado.
