@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","ecosystem":"BELENTANI","universe":"BELENTANI","layer":"experience","role":"interactive-surface","status":"active","parent_repository":"belentani7/Belentani","contract":{"inputs":["identity","content","media"],"outputs":["interactive experience"],"integration":"BELENTANI ecosystem contract","destructive_merges":false}}
