@@ -18,7 +18,7 @@ const projects = [
 
 const languages = [["es", "Español"], ["en", "English"], ["pt", "Português"], ["it", "Italiano"], ["fr", "Français"], ["ca", "Català"], ["fi", "Suomi"], ["zh", "中文"], ["hi", "हिन्दी"], ["ja", "日本語"], ["th", "ไทย"]];
 const protocolText = "BELENTANI PROTOCOL ACTIVATED";
-const decodeGlyphs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/░▒▓";
+const bootStages = ["SIGNAL CHECK", "CONTEXT VERIFIED", "PROTOCOL READY"];
 const stack: Array<[string, number]> = [["Trust & Safety", 92], ["AI orchestration", 88], ["Automation / n8n", 86], ["TypeScript / Python", 82], ["Frontend systems", 79], ["Security & audit", 84]];
 const timeline = [{ year: "2016—20", label: "OPERATIONS", detail: "Contexto, análisis y decisiones bajo presión." }, { year: "2020—23", label: "TRUST & SAFETY", detail: "Sistemas humanos para escalar criterio y proteger plataformas." }, { year: "2023—26", label: "NOIACORE LAB", detail: "IA, automatización y software con observabilidad." }];
 
@@ -33,7 +33,8 @@ export default function Home() {
   const [loaded, setLoaded] = useState(false);
   const [now, setNow] = useState(new Date());
   const [language, setLanguage] = useState("es");
-  const [bootText, setBootText] = useState("░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░");
+  const [bootText, setBootText] = useState("");
+  const [bootStage, setBootStage] = useState("INITIALIZING");
   const [bootWelcome, setBootWelcome] = useState(false);
   const [filter, setFilter] = useState("ALL");
   const [selectedProject, setSelectedProject] = useState<(typeof projects)[number] | null>(null);
@@ -43,22 +44,22 @@ export default function Home() {
 
   useEffect(() => {
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reducedMotion) { setBootText(protocolText); setBootWelcome(true); setLoaded(true); }
+    if (reducedMotion) { setBootStage("READY"); setBootText(protocolText); setBootWelcome(true); setLoaded(true); }
     let reveal = 0;
+    const stageTimers = reducedMotion ? [] : bootStages.map((stage, index) => window.setTimeout(() => setBootStage(stage), 900 + index * 1150));
     const decoder = reducedMotion ? undefined : window.setInterval(() => {
       reveal += 1;
-      const output = protocolText.split("").map((character, index) => index < reveal - 2 ? character : index < reveal + 3 && character !== " " ? decodeGlyphs[Math.floor(Math.random() * decodeGlyphs.length)] : character === " " ? " " : "░").join("");
-      setBootText(output);
-      if (reveal > protocolText.length + 4) { window.clearInterval(decoder); setBootText(protocolText); window.setTimeout(() => setBootWelcome(true), 1400); window.setTimeout(() => setLoaded(true), 3200); }
-    }, 180);
+      setBootText(protocolText.slice(0, reveal));
+      if (reveal >= protocolText.length) { window.clearInterval(decoder); setBootStage("READY"); window.setTimeout(() => setBootWelcome(true), 1100); window.setTimeout(() => setLoaded(true), 3000); }
+    }, 1150);
     const clock = window.setInterval(() => setNow(new Date()), 30000);
     const pulse = window.setInterval(() => setSystemPulse((value) => value > 96 ? 76 : value + 1), 4200);
     const keyboard = (event: KeyboardEvent) => { if (event.key === "Escape") { setSelectedProject(null); setCommandPalette(false); setMenuOpen(false); } if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); setCommandPalette(true); } };
     window.addEventListener("keydown", keyboard);
-    return () => { if (decoder) window.clearInterval(decoder); window.clearInterval(clock); window.clearInterval(pulse); window.removeEventListener("keydown", keyboard); };
+    return () => { if (decoder) window.clearInterval(decoder); stageTimers.forEach((timer) => window.clearTimeout(timer)); window.clearInterval(clock); window.clearInterval(pulse); window.removeEventListener("keydown", keyboard); };
   }, []);
 
-  const skipBoot = () => { setBootText(protocolText); setBootWelcome(true); setLoaded(true); };
+  const skipBoot = () => { setBootStage("READY"); setBootText(protocolText); setBootWelcome(true); setLoaded(true); };
   const localTime = useMemo(() => now.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" }), [now]);
 
   const runCommand = () => {
@@ -70,7 +71,7 @@ export default function Home() {
   };
 
   return <div className={`site-shell ${loaded ? "is-loaded boot-complete" : ""}`}>
-    {!loaded && <div className="protocol-loader" role="status" aria-live="polite"><div className="loader-line" aria-hidden="true"><span/></div><div className="loader-code">SYS/00 · SIGNAL INITIALIZATION</div><div className="loader-title">{bootText}</div><div className={`loader-welcome ${bootWelcome ? "is-visible" : ""}`}>BIENVENIDO A LA EXPERIENCIA</div><button className="loader-skip" onClick={skipBoot}>OMITIR SECUENCIA</button></div>}
+    {!loaded && <div className="protocol-loader" role="status" aria-live="polite"><div className="loader-line" aria-hidden="true"><span/></div><div className="loader-code">SYS/00 · SIGNAL INITIALIZATION</div><div className="loader-stage">{bootStage}<span className="loader-cursor" aria-hidden="true" /></div><div className="loader-title">{bootText}</div><div className={`loader-welcome ${bootWelcome ? "is-visible" : ""}`}>BIENVENIDO A LA EXPERIENCIA</div><button className="loader-skip" onClick={skipBoot}>OMITIR SECUENCIA</button></div>}
     <div className="grain" aria-hidden="true" />
     <header className="site-header"><a className="brand-lockup" href="#top" aria-label="Belentani, inicio"><img src={monogramImage} alt="" className="brand-mark" /><span className="brand-wordmark">BELENTANI<span className="brand-dot">.</span>EU</span></a><nav className="desktop-nav" aria-label="Navegación principal">{[["00", "Inicio", "top"], ["01", "Trabajo", "work"], ["02", "Perfil", "about"], ["03", "Contacto", "contact"]].map(([n, label, href]) => <a key={n} href={`#${href}`}><span>{n}</span>{label}</a>)}</nav><div className="header-status"><span className="status-dot" /> AVAILABLE / BCN <span className="status-time">{localTime}</span></div><label className="language-picker"><Globe2 size={13}/><select aria-label="Seleccionar idioma" value={language} onChange={(event) => setLanguage(event.target.value)}>{languages.map(([code, label]) => <option key={code} value={code}>{label}</option>)}</select></label><button className="menu-trigger" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button></header>
     {menuOpen && <div className="mobile-menu"><div className="mobile-menu-inner">{[["00", "Inicio", "top"], ["01", "Trabajo", "work"], ["02", "Perfil", "about"], ["03", "Contacto", "contact"]].map(([n, label, href]) => <a key={n} href={`#${href}`} onClick={() => setMenuOpen(false)}><small>{n}</small>{label}<ArrowUpRight size={18}/></a>)}</div></div>}

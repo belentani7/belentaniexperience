@@ -108,3 +108,11 @@
 - [x] Limitar el ancho de lectura y aumentar el aire entre bloques.
 - [x] Revisar el comportamiento móvil de títulos, cards, expedientes y protocolo.
 - [x] Verificar TypeScript, build y screenshot antes de publicar.
+
+## Arranque de máquina real
+
+- [x] Sustituir glifos aleatorios por estados deterministas de inicialización.
+- [x] Mostrar consola mínima con fases de verificación y cursor técnico.
+- [x] Mantener línea única, negro profundo y tipografía fina sin efectos gratuitos.
+- [x] Hacer que la revelación de BELENTANI PROTOCOL ACTIVATED sea consecuencia del estado READY.
+- [x] Verificar que la secuencia se puede omitir y que reduced-motion no queda bloqueado.
