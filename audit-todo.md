@@ -134,3 +134,22 @@
 - [x] Hacer que la animación comunique estados funcionales: observar, procesar, confirmar, recordar y responder.
 - [x] Revisar plugins y dependencias actuales; preferir CSS/React ligero cuando sea suficiente.
 - [x] Aplicar cambios, verificar accesibilidad, rendimiento, responsive y publicar.
+
+## Paleta sin marrón
+
+- [x] Localizar usos residuales de `brass`, marrón, dorado o tonos cálidos en React y escenas.
+- [x] Sustituirlos por grises neutros o blanco frío según jerarquía.
+- [x] Regenerar las 20 escenas Gestalt con la paleta corregida.
+- [x] Verificar contraste, TypeScript, build, responsive y screenshot antes de publicar.
+
+## Índice público de criterios y patrones
+
+**Descartado por decisión de producto:** las reglas, patrones y auditorías no se exponen como documentación pública; se transforman en concepto, copy, composición, estados, movimiento y comportamiento de la web.
+
+## Concepto aplicado, no documental
+
+- [x] Ocultar o retirar del recorrido principal cualquier índice público de criterios que exponga el proceso en lugar de comunicarlo.
+- [x] Convertir los patrones observados en decisiones de copy, composición, ritmo, interacción y estados.
+- [x] Hacer que la máquina consciente se entienda por comportamiento, no por explicación extensa.
+- [x] Mantener una narrativa corta, limpia y acumulativa durante la experiencia.
+- [x] Verificar que cada elemento existe por una función perceptiva o narrativa concreta.
