@@ -91,3 +91,20 @@
 - [x] Aplicar las reglas al frontend y a las 20 escenas HTML cuando corresponda.
 - [x] Resolver conflictos priorizando texto del usuario, accesibilidad, rendimiento y coherencia narrativa.
 - [x] Ejecutar checks finales y publicar el protocolo aplicado.
+
+## Auditoría semántica y psicológica del copy
+
+- [ ] Extraer el texto visible de Home, escenas HTML, metadata y documentación narrativa.
+- [ ] Identificar adjetivos, verbos, metáforas, claims, términos técnicos y frases de transición.
+- [ ] Evaluar para cada bloque si transmite confianza, autoridad, claridad, tensión, frialdad, humanidad o distancia.
+- [ ] Detectar palabras genéricas, exageradas, ambiguas o psicológicamente contraproducentes.
+- [ ] Corregir el copy manteniendo hechos, enlaces, nombres y promesas verificables.
+- [ ] Documentar cambios y verificar TypeScript, build, composición y accesibilidad.
+
+## Limpieza tipográfica
+
+- [x] Reducir la escala de titulares largos y evitar saltos visuales agresivos.
+- [x] Acortar frases visibles sin alterar hechos ni nombres propios.
+- [x] Limitar el ancho de lectura y aumentar el aire entre bloques.
+- [x] Revisar el comportamiento móvil de títulos, cards, expedientes y protocolo.
+- [x] Verificar TypeScript, build y screenshot antes de publicar.
