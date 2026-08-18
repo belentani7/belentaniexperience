@@ -124,3 +124,13 @@
 - [x] Reducir blur, sombras difusas, color cálido y animación ornamental donde contradigan el protocolo.
 - [x] Mantener la apertura como máquina silenciosa: negra, determinista, lenta y legible.
 - [x] Verificar build, responsive, accesibilidad, ausencia de audio y carga eficiente.
+
+## Máquina consciente / experiencia de cinco minutos
+
+- [x] Crear un informe de preferencias persistentes, restricciones y patrones de decisión observados en el chat.
+- [x] Separar inferencias de diseño de cualquier diagnóstico psicológico; no presentar conclusiones clínicas.
+- [x] Diseñar cinco minutos en fases: entrada, lectura, inspección, análisis y contacto.
+- [x] Eliminar azules/cian celestes y reducir la paleta a negro, blanco frío, gris y un acento mínimo.
+- [x] Hacer que la animación comunique estados funcionales: observar, procesar, confirmar, recordar y responder.
+- [x] Revisar plugins y dependencias actuales; preferir CSS/React ligero cuando sea suficiente.
+- [x] Aplicar cambios, verificar accesibilidad, rendimiento, responsive y publicar.
