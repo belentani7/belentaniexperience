@@ -58,3 +58,11 @@
 - [x] Crear una hoja de estilo compartida con agua negra, cristal frío, línea fina y estados de protocolo.
 - [x] Añadir índice visual y mapa de relaciones entre escenas.
 - [x] Verificar enlaces internos, landmarks, foco, responsive y carga.
+
+## Pase final de máxima calidad
+
+- [x] Reducir o dividir el bundle principal para eliminar la advertencia de chunk grande.
+- [x] Añadir una capa explícita de skip/reduced-motion y mejorar el foco visible en las escenas HTML.
+- [x] Revisar metadatos, enlaces, estados vacíos, errores y navegación sin ratón.
+- [x] Refinar los puntos de mayor impacto visual sin cambiar la voz ni inventar contenido.
+- [x] Ejecutar checks finales y guardar una nueva publicación validada.
