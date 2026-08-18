@@ -116,3 +116,11 @@
 - [x] Mantener línea única, negro profundo y tipografía fina sin efectos gratuitos.
 - [x] Hacer que la revelación de BELENTANI PROTOCOL ACTIVATED sea consecuencia del estado READY.
 - [x] Verificar que la secuencia se puede omitir y que reduced-motion no queda bloqueado.
+
+## Máquina Silenciosa
+
+- [x] Comparar negro, superficies, tipografía, grid, movimiento, silencio sensorial, componentes y rendimiento con el sistema actual.
+- [x] Aplicar tokens fríos, bordes finos, radios mínimos, números tabulares y fuentes técnicas.
+- [x] Reducir blur, sombras difusas, color cálido y animación ornamental donde contradigan el protocolo.
+- [x] Mantener la apertura como máquina silenciosa: negra, determinista, lenta y legible.
+- [x] Verificar build, responsive, accesibilidad, ausencia de audio y carga eficiente.
